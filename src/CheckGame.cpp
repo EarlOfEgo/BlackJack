@@ -49,5 +49,18 @@ int CheckGame::checkActualScore(int cards[5])
     return finalScore;
 }
 
+bool CheckGame::playerWon(int playerCards[5], int dealerCards[5])
+{
+    if(checkActualScore(playerCards) > 21)
+        return false;
+    if(checkActualScore(dealerCards) > 21)
+        return true;
+
+    if(checkActualScore(playerCards) > checkActualScore(dealerCards))
+        return true;
+    else
+        return false;
+}
+
 
 

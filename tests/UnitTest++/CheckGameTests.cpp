@@ -26,21 +26,21 @@ SUITE(TestCheckGame)
 
     TEST(CheckActualScoreWithBJ)
     {
-        int cards[5] = {1, 10, 0 ,0 ,0};
+        int cards[5] = {1, 10, 0, 0, 0};
         int result = cg.checkActualScore(cards);
         CHECK_EQUAL(21,result);
     }
 
     TEST(CheckActualScoreWithAce)
     {
-        int cards[5] = {1, 10, 10 ,0 ,0};
+        int cards[5] = {1, 10, 10, 0, 0};
         int result = cg.checkActualScore(cards);
         CHECK_EQUAL(21,result);
     }
 
     TEST(CheckActualScoreWithAce2)
     {
-        int cards[5] = {1, 10,0 ,0 ,0};
+        int cards[5] = {1, 10, 0, 0, 0};
         int result = cg.checkActualScore(cards);
         CHECK_EQUAL(21,result);
     }

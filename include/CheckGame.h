@@ -16,13 +16,18 @@
 * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
 */
 
+#ifndef CHECKGAME_H
+#define CHECKGAME_H
 
-#include "UnitTest++.h"
-#include "gtest/gtest.h"
 
-int main(int argc, char **argv)
+class CheckGame
 {
- //   return UnitTest::RunAllTests();
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
+    public:
+        CheckGame();
+        virtual ~CheckGame();
+        int checkActualScore(int cards[5]);
+        bool playerWon(int playerCards[5], int dealerCards[5]);
+    private:
+};
+
+#endif // CHECKGAME_H

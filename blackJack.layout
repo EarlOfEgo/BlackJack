@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="include/BlackJackCards.h" open="1" top="0" tabpos="1">
+		<Cursor position="779" topLine="0" />
+	</File>
+	<File name="include/CheckGame.h" open="1" top="0" tabpos="6">
+		<Cursor position="778" topLine="0" />
+	</File>
+	<File name="src/BlackJackCards.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="779" topLine="0" />
+	</File>
+	<File name="src/BlackJackCardsTests.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="833" topLine="0" />
+	</File>
+	<File name="src/CheckGame.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="779" topLine="0" />
+	</File>
+	<File name="src/CheckGameTests.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="903" topLine="0" />
+	</File>
+	<File name="src/main.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="854" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
