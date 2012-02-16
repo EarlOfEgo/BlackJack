@@ -19,7 +19,6 @@
 
 #include "gtest/gtest.h"
 #include "BlackJackCards.h"
-#include <stdio.h>
 
 BlackJackCards bjc;
 int *value = new int;

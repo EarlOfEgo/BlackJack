@@ -17,7 +17,10 @@
 					<Add directory="include" />
 				</Compiler>
 				<Linker>
+					<Add option="-lpthread" />
 					<Add library="../UnitTest++/libUnitTest++.a" />
+					<Add library="../../../../usr/lib/libgtest.a" />
+					<Add library="../../../../usr/lib/libgtest_main.a" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -40,10 +43,12 @@
 		<Unit filename="include/BlackJackCards.h" />
 		<Unit filename="include/CheckGame.h" />
 		<Unit filename="src/BlackJackCards.cpp" />
-		<Unit filename="src/BlackJackCardsTests.cpp" />
 		<Unit filename="src/CheckGame.cpp" />
-		<Unit filename="src/CheckGameTests.cpp" />
 		<Unit filename="src/main.cpp" />
+		<Unit filename="tests/UnitTest++/BlackJackCardsTests.cpp" />
+		<Unit filename="tests/UnitTest++/CheckGameTests.cpp" />
+		<Unit filename="tests/googletest/BlackJackCardsTests.cpp" />
+		<Unit filename="tests/googletest/CheckGameTests.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />

@@ -6,7 +6,7 @@
 
 1320613439 /home/stephan/projects/blackJack/include/BlackJackCards.h
 
-1329329620 source:/home/stephan/projects/blackJack/src/main.cpp
+1329393676 source:/home/stephan/projects/blackJack/src/main.cpp
 	"UnitTest++.h"
 	"gtest/gtest.h"
 
@@ -115,7 +115,7 @@
 	"UnitTest++.h"
 	"CheckGame.h"
 
-1329329053 source:/home/stephan/projects/blackJack/tests/UnitTest++/BlackJackCardsTests.cpp
+1329332746 source:/home/stephan/projects/blackJack/tests/UnitTest++/BlackJackCardsTests.cpp
 	"UnitTest++.h"
 	"BlackJackCards.h"
 
@@ -127,12 +127,14 @@
 	"gtest/gtest.h"
 	"CheckGame.h"
 
-1329330052 source:/home/stephan/projects/blackJack/tests/googletest/CheckGameTests.cpp
+1329330311 source:/home/stephan/projects/blackJack/tests/googletest/CheckGameTests.cpp
 	"gtest/gtest.h"
 	"CheckGame.h"
 
-1329329397 source:/home/stephan/projects/blackJack/tests/googletest/BlackJackCardsTests.cpp
+1329332792 source:/home/stephan/projects/blackJack/tests/googletest/BlackJackCardsTests.cpp
 	"gtest/gtest.h"
 	"BlackJackCards.h"
-	<stdio.h>
+
+1329393664 source:/home/stephan/projects/blackJack/tests/googletest/testMain.cpp
+	"gtest/gtest.h"
 

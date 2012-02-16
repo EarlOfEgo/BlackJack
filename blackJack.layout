@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="include/BlackJackCards.h" open="1" top="0" tabpos="1">
+	<File name="include/BlackJackCards.h" open="0" top="0" tabpos="1">
 		<Cursor position="779" topLine="0" />
 	</File>
-	<File name="include/CheckGame.h" open="1" top="0" tabpos="6">
-		<Cursor position="778" topLine="0" />
+	<File name="include/CheckGame.h" open="1" top="0" tabpos="7">
+		<Cursor position="1016" topLine="0" />
 	</File>
-	<File name="src/BlackJackCards.cpp" open="0" top="0" tabpos="4">
-		<Cursor position="779" topLine="0" />
+	<File name="src/BlackJackCards.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="779" topLine="32" />
 	</File>
-	<File name="src/BlackJackCardsTests.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="833" topLine="0" />
+	<File name="src/CheckGame.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1296" topLine="14" />
 	</File>
-	<File name="src/CheckGame.cpp" open="1" top="0" tabpos="5">
-		<Cursor position="779" topLine="0" />
+	<File name="src/main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="869" topLine="0" />
 	</File>
-	<File name="src/CheckGameTests.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="903" topLine="0" />
+	<File name="tests/UnitTest++/BlackJackCardsTests.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="2202" topLine="8" />
 	</File>
-	<File name="src/main.cpp" open="1" top="1" tabpos="2">
-		<Cursor position="854" topLine="0" />
+	<File name="tests/UnitTest++/CheckGameTests.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="tests/googletest/BlackJackCardsTests.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="2178" topLine="43" />
+	</File>
+	<File name="tests/googletest/CheckGameTests.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1601" topLine="5" />
 	</File>
 </CodeBlocks_layout_file>
